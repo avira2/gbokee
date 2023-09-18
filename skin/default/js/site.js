@@ -94,12 +94,12 @@ layui.use(['layer', 'element', 'carousel', 'util', 'form'], function () {
             shadeClose: true,
             shade: 0.8,
             area: ['380px', '90%'],
-            content: '感謝支持，甜夢島已關閉所有贊助方式，我們有緣再見！'
+            content: '感謝支持，丹樂網已關閉所有贊助方式，我們有緣再見！'
         });
     });
 
     //新域名提示
-    layer.msg('歡迎來到甜夢島，請牢記我們的域名storybox.eu.org', {icon: 4});
+    // layer.msg('歡迎來到丹樂網存檔庫', {icon: 4});
     //支付宝红包弹窗
 /*    var cookie_hongbao = $.cookie("hongbao");
     if(cookie_hongbao==null){
